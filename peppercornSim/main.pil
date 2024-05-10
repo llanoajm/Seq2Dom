@@ -1,0 +1,58 @@
+length qrKF = 152
+length vVLy = 10
+length ydeD = 44
+length dULPz = 18
+length QlD = 226
+length wvFIX = 31
+length znlZZ = 93
+length OPVD = 204
+length SbkVW = 8
+length aWJ = 541
+length Kslo = 107
+length yEgK = 404
+length rhbb = 2
+length uHJZ = 8
+length hxx = 134
+length XSfQV = 590
+length aXBU = 8
+length AmGX = 303
+length Nww = 344
+length Qfl = 367
+length vaLG = 8
+length RXwg = 224
+length HoUEe = 696
+length EaPDV = 7
+length fdUn = 158
+length vzcjS = 815
+length tqsDz = 8
+length qIgk = 50
+StrandA = qrKF vVLy ydeD tqsDz* dULPz aXBU* QlD vaLG* wvFIX EaPDV* znlZZ @initial 100nM
+StrandAKEY = qrKF* vVLy* ydeD* tqsDz dULPz* @initial 100nM
+StrandC = OPVD SbkVW aWJ @initial 100nM
+StrandCKEY = OPVD* SbkVW* aWJ* @initial 100nM
+StrandE = Kslo vVLy* yEgK SbkVW* rhbb uHJZ hxx @initial 100nM
+StrandEKEY = Kslo* vVLy yEgK* SbkVW rhbb* @initial 100nM
+StrandG = XSfQV aXBU AmGX @initial 100nM
+StrandGKEY = XSfQV* aXBU* AmGX* @initial 100nM
+StrandI = Nww uHJZ* Qfl vaLG RXwg @initial 100nM
+StrandIKEY = Nww* uHJZ Qfl* vaLG* RXwg* @initial 100nM
+StrandK = HoUEe EaPDV fdUn @initial 100nM
+StrandKKEY = HoUEe* EaPDV* fdUn* @initial 100nM
+StrandM = vzcjS tqsDz qIgk @initial 100nM
+StrandMKEY = vzcjS* tqsDz* qIgk* @initial 100nM
+----------------------
+Succesful Reactions: 7
+
+Succesful Reaction %: 1
+
+Number Of Files: 7
+
+Average Time of Reaction: 0.0843618
+
+Average Key-to-file Ratio: 0.881262
+
+Average File Length: 5
+
+Average Total Consumption Time: 1185.37
+
+Maximum Key Length: 6

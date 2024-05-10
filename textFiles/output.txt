@@ -1,0 +1,17 @@
+length OYAo = 74
+length NOlnS = 6
+length yNE = 1
+length EJe = 26
+length XqJJe = 50
+length xsI = 6
+length Xol = 7
+length RNMcV = 38
+length riqY = 3
+length zsfkO = 5
+length CNR = 37
+StrandA = OYAo NOlnS NOlnS* yNE zsfkO* EJe @initial 100nM
+StrandAKEY = OYAo* NOlnS* NOlnS yNE* @initial 100nM
+StrandC = XqJJe xsI Xol xsI* RNMcV @initial 100nM
+StrandCKEY = XqJJe* xsI* Xol* xsI @initial 100nM
+StrandE = riqY zsfkO CNR @initial 100nM
+StrandEKEY = riqY* zsfkO* CNR* @initial 100nM
